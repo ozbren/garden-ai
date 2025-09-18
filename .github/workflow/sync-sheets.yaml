@@ -19,15 +19,10 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p data
-          declare -A MAP=(
-          ["garden_ai"]="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv"
-          )
+
           # ---- MAP YOUR SHEETS HERE (name -> published CSV URL) ----
           declare -A MAP=(
-            # Example:
-            # ["garden_events"]="https://docs.google.com/spreadsheets/d/XXXX/pub?gid=111&single=true&output=csv"
-            # ["garden_reminders"]="https://docs.google.com/spreadsheets/d/YYYY/pub?gid=222&single=true&output=csv"
-            # ["garden_plants"]="https://docs.google.com/spreadsheets/d/ZZZZ/pub?gid=333&single=true&output=csv"
+          ["garden_ai"]="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv"
           )
           # -----------------------------------------------------------
 
