@@ -2,11 +2,11 @@ name: Sync Google Sheets to repo
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes (runs on UTC)
-  workflow_dispatch:          # allow manual run from Actions tab
+    - cron: "*/15 * * * *"   # every 15 minutes (UTC)
+  workflow_dispatch:          # allow manual run
 
 permissions:
-  contents: write             # needed to push updates
+  contents: write
 
 jobs:
   sync:
@@ -22,7 +22,7 @@ jobs:
 
           # ---- MAP YOUR SHEETS HERE (name -> published CSV URL) ----
           declare -A MAP=(
-          ["garden_ai"]="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv"
+            ["garden_ai"]="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv"
           )
           # -----------------------------------------------------------
 
@@ -55,30 +55,25 @@ jobs:
             echo "Nothing to commit."
           fi
 
-      - name: (Optional) Also emit JSON alongside CSV
+      - name: Also emit JSON alongside CSV
         if: always()
         shell: bash
         run: |
           set -euo pipefail
           python3 - << 'PY'
-import csv, json, glob, os
+import csv, json, glob, os, subprocess
 changed = False
 for csv_path in glob.glob('data/*.csv'):
     json_path = csv_path[:-4] + 'json'
     with open(csv_path, newline='') as f:
         rows = list(csv.DictReader(f))
     new = json.dumps(rows, ensure_ascii=False, indent=2)
-    old = None
-    if os.path.exists(json_path):
-        with open(json_path, 'r', encoding='utf-8') as f:
-            old = f.read()
+    old = open(json_path, 'r', encoding='utf-8').read() if os.path.exists(json_path) else None
     if new != old:
-        with open(json_path, 'w', encoding='utf-8') as f:
-            f.write(new)
+        open(json_path, 'w', encoding='utf-8').write(new)
         changed = True
 if changed:
-    import subprocess
-    subprocess.run(["git","add","data/*.json"], shell=True, check=False)
+    subprocess.run(["git","add","data"], check=False)
     subprocess.run(["git","commit","-m","Update JSON exports"], check=False)
     subprocess.run(["git","push"], check=False)
 PY
