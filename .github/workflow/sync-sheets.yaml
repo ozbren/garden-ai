@@ -1,0 +1,89 @@
+name: Sync Google Sheets to repo
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes (runs on UTC)
+  workflow_dispatch:          # allow manual run from Actions tab
+
+permissions:
+  contents: write             # needed to push updates
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch sheets as CSV
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          declare -A MAP=(
+          ["garden_ai"]="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv"
+          )
+          # ---- MAP YOUR SHEETS HERE (name -> published CSV URL) ----
+          declare -A MAP=(
+            # Example:
+            # ["garden_events"]="https://docs.google.com/spreadsheets/d/XXXX/pub?gid=111&single=true&output=csv"
+            # ["garden_reminders"]="https://docs.google.com/spreadsheets/d/YYYY/pub?gid=222&single=true&output=csv"
+            # ["garden_plants"]="https://docs.google.com/spreadsheets/d/ZZZZ/pub?gid=333&single=true&output=csv"
+          )
+          # -----------------------------------------------------------
+
+          changed=0
+          for name in "${!MAP[@]}"; do
+            url="${MAP[$name]}"
+            tmp="data/${name}.csv.tmp"
+            out="data/${name}.csv"
+
+            echo "Downloading $name..."
+            curl -Lsf --retry 3 --retry-delay 2 -o "$tmp" "$url"
+
+            if [ ! -f "$out" ] || ! cmp -s "$tmp" "$out"; then
+              mv "$tmp" "$out"
+              git add "$out"
+              changed=1
+              echo "Updated: $out"
+            else
+              rm -f "$tmp"
+              echo "No change: $out"
+            fi
+          done
+
+          if [ "$changed" -eq 1 ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Sync sheets: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git push
+          else
+            echo "Nothing to commit."
+          fi
+
+      - name: (Optional) Also emit JSON alongside CSV
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - << 'PY'
+import csv, json, glob, os
+changed = False
+for csv_path in glob.glob('data/*.csv'):
+    json_path = csv_path[:-4] + 'json'
+    with open(csv_path, newline='') as f:
+        rows = list(csv.DictReader(f))
+    new = json.dumps(rows, ensure_ascii=False, indent=2)
+    old = None
+    if os.path.exists(json_path):
+        with open(json_path, 'r', encoding='utf-8') as f:
+            old = f.read()
+    if new != old:
+        with open(json_path, 'w', encoding='utf-8') as f:
+            f.write(new)
+        changed = True
+if changed:
+    import subprocess
+    subprocess.run(["git","add","data/*.json"], shell=True, check=False)
+    subprocess.run(["git","commit","-m","Update JSON exports"], check=False)
+    subprocess.run(["git","push"], check=False)
+PY
