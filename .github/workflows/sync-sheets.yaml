@@ -55,25 +55,26 @@ jobs:
             echo "Nothing to commit."
           fi
 
+      # Use a Python step (no heredoc/YAML indentation traps)
       - name: Also emit JSON alongside CSV
-        if: always()
-        shell: bash
+        shell: python
         run: |
-          set -euo pipefail
-          python3 - << 'PY'
-import csv, json, glob, os, subprocess
-changed = False
-for csv_path in glob.glob('data/*.csv'):
-    json_path = csv_path[:-4] + 'json'
-    with open(csv_path, newline='') as f:
-        rows = list(csv.DictReader(f))
-    new = json.dumps(rows, ensure_ascii=False, indent=2)
-    old = open(json_path, 'r', encoding='utf-8').read() if os.path.exists(json_path) else None
-    if new != old:
-        open(json_path, 'w', encoding='utf-8').write(new)
-        changed = True
-if changed:
-    subprocess.run(["git","add","data"], check=False)
-    subprocess.run(["git","commit","-m","Update JSON exports"], check=False)
-    subprocess.run(["git","push"], check=False)
-PY
+          import csv, json, glob, os, subprocess
+          changed = False
+          for csv_path in glob.glob('data/*.csv'):
+              json_path = csv_path[:-4] + 'json'
+              with open(csv_path, newline='') as f:
+                  rows = list(csv.DictReader(f))
+              new = json.dumps(rows, ensure_ascii=False, indent=2)
+              old = None
+              if os.path.exists(json_path):
+                  with open(json_path, 'r', encoding='utf-8') as f:
+                      old = f.read()
+              if new != old:
+                  with open(json_path, 'w', encoding='utf-8') as f:
+                      f.write(new)
+                  changed = True
+          if changed:
+              subprocess.run(["git","add","data"], check=False)
+              subprocess.run(["git","commit","-m","Update JSON exports"], check=False)
+              subprocess.run(["git","push"], check=False)
