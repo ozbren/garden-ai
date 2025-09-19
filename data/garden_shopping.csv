@@ -1,73 +1,28 @@
-reminder_id,title,start_date,rrule,related_plant_id,notes
-rem-weekly-rollup,Weekly Garden Roll-up (tasks due + spray/feed windows),2025-09-07T09:00:00+10:00,FREQ=WEEKLY;BYDAY=SU;BYHOUR=9;BYMINUTE=0;BYSECOND=0,,Generates this week’s due tasks from events/intervals
-rem-soil-temp,Soil temperature check (10cm),2025-09-07T09:00:00+10:00,FREQ=WEEKLY;BYDAY=SU;BYHOUR=9;BYMINUTE=0;BYSECOND=0,all-beds,
-rem-citrus-eco-oil,Citrus eco-oil spray (Sep–Mar),2025-09-20T09:00:00+10:00,FREQ=WEEKLY;INTERVAL=2;BYHOUR=9;BYMINUTE=0;BYSECOND=0,citrus-garden,Stop after Mar 31; resume Sep 1
-rem-blueberry-feed,Blueberry feed (acidic fertiliser),2025-10-01T09:00:00+10:00,FREQ=MONTHLY;BYMONTHDAY=1;BYHOUR=9;BYMINUTE=0;BYSECOND=0,blueberry-001,
-2025-09-07,Best spray day,,,,Tuesday evening looks calm/dry — plan Dipel or eco-oil
-2025-09-07,AM Reminder,,,,"Cucumber (Lebanese): soil 19 °C — direct sow anytime now (germ 5–7 days). Sensitive to transplant shock, so sow straight in bed."
-2025-09-08,AM/PM/Weekly block,,,,"AM (7:00): • Weather & soil: read today’s highs/lows and wind; measure soil temp at 10 cm and moisture at 7–10 cm. Water only if 7–10 cm is dry; spot-water carrots/beets if borderline. • Best spray day this week: call out the calm, dry, mild evening from the 7-day forecast for eco-oil on citrus or Dipel/Eco-Neem (avoid hot/windy days). • Seedlings: – Roma tomatoes: legginess/light check daily (light 2–3 cm above canopy; rotate; gentle airflow; 18–24°C; vent dome until ≥70% germinated). Begin half-strength liquid feed weekly once first true leaves appear. – Capsicum (peppers): check for 2–3 true leaves; pot-up when roots show at drainage holes or growth slows. Target 20–26°C days / ≥15°C nights. Begin half-strength feed weekly after pot-up. Start hardening off at 4–5 true leaves on calm, mild days. – Eggplant: check for sturdy stems and 3–4 true leaves; pot-up as needed. Target 22–28°C days / ≥16°C nights. Begin half-strength feed weekly after pot-up. Start hardening off once nights consistently ≥14–15°C. – Cucumber (Lebanese): soil is ≥18°C — direct sow now; expect germination in ~5–7 days; keep evenly moist. – Chilli: in dome + heat mat now (25–28°C ideal). Germination 10–21 days. Keep evenly moist; vent dome once ≥70% up. Begin weekly half-strength feed after first true leaves. – Passionfruit: in dome + heat mat (20–30°C). Soak 24 h before sowing if possible; germination 2–6 weeks. Pot-up gently; add mycorrhizae at pot-up, not in seed mix. • Blueberry: keep mulch acidic and moist; monthly acidic liquid feed Sep–Mar; chelated iron only if new leaves yellow with green veins. • Citrus: plan seasonal feeds (spring full feed; mid-summer light; autumn potash). Only feed into moist soil. • General: avoid feeding/spraying on very windy or >32°C days.
-
-PM (7:00): • Cutworm patrol (broccoli/peas): night check and handpick. If activity continues, spray Dipel late afternoon once per week; if larvae persist at soil line, do an Eco-Neem drench at the base (no collars). • Eco-oil (citrus): last sprayed 2025-09-06. Do not re-spray before 2025-09-13. From 13–16 Sep, pick the calmest, dry evening (avoid heat/wind) and re-assess pests; only re-apply if needed. If >10 mm rain fell within 24 h of last spray, reset the 7–10 day clock from that date. • Compost: quick sniff/moisture check; if too wet add browns, if too dry add water; turn on your scheduled day and log the date.
-
-Weekly notes: • Roots (carrot/beet): avoid high N; if pale, side-dress very lightly with low N, higher K and water in. • Carrots/Beets harvest readiness: from now, test-pull one every 1–2 weeks; look for shoulders at soil line ~2–3 cm across, good colour, and crisp snap. If small, re-mulch lightly and leave 1–2 weeks. • Carrots/Beets test-pull log: every fortnight on Sunday, pull and record one carrot or beet to track maturity and size. • Sweet potatoes (bags): monthly light organic feed; add sulphate of potash once bulking starts; keep evenly moist. • Tomatoes transplant tip: bury leggy seedlings up to the first leaves for stronger stems and roots. • Shopping list check: review supplies every Sunday (eco-oil, Dipel, Eco-Neem, copper, sulphur, iron chelate, acidic fertiliser, stakes/ties, seed-raising mix) and add refills. • Seed storage (weekly): ensure leftover packets are dry and sealed in an airtight jar with desiccant; store in the fridge; keep out of light. • Only feed/spray when foliage is dry and conditions are calm; always water before and after granular feeds."
-2025-09-08,AM/PM/Weekly block,"AM (6:00): • Weather & soil: read today’s highs/lows and wind; measure soil temp at 10 cm and moisture at 7–10 cm. Water only if 7–10 cm is dry; spot-water carrots/beets if borderline. • Best spray day this week: call out the calm, dry, mild evening from the 7-day forecast for eco-oil on citrus or Dipel/Eco-Neem (avoid hot/windy days). • Seedlings: – Roma tomatoes: legginess/light check daily (light 2–3 cm above canopy; rotate; gentle airflow; 18–24°C; vent dome until ≥70% germinated). Begin half-strength liquid feed weekly once first true leaves appear. – Capsicum (peppers): check for 2–3 true leaves; pot-up when roots show; target 20–26°C days / ≥15°C nights; begin half-strength feed weekly after pot-up. – Eggplant: sturdy stems and 3–4 true leaves; pot-up as needed; 22–28°C days / ≥16°C nights; begin half-strength feed weekly after pot-up. – Cucumber (Lebanese): soil ≥18 °C — direct sow now; expect germination ~5–7 days; keep evenly moist. – Chilli: in dome + heat mat (25–28 °C); germ 10–21 d; vent dome once ≥70% up; begin weekly half-strength feed after true leaves. – Passionfruit: in dome + heat mat (20–30 °C); soak 24 h before sowing; germ 2–6 wks; add mycorrhizae at pot-up (not in seed mix). • Blueberry: keep mulch acidic and moist; monthly acidic liquid feed Sep–Mar; chelated iron only if new leaves yellow with green veins. • Citrus: plan seasonal feeds (spring full feed; mid-summer light; autumn potash). Only feed into moist soil. • General: avoid feeding/spraying on very windy or >32 °C days.
-
-PM (6:00): • Cutworm patrol (broccoli/peas): night check and handpick. If activity continues, spray Dipel late afternoon once per week; if larvae persist at soil line, do an Eco-Neem drench at the base (no collars). • Eco-oil (citrus): last sprayed 2025-09-06; do not re-spray before 2025-09-13. From 13–16 Sep, pick the calmest, dry evening; only re-apply if needed. If >10 mm rain fell within 24 h of last spray, reset the 7–10 day clock from that date. • Compost: quick sniff/moisture check; if too wet add browns, if too dry add water; turn on your scheduled day and log the date.
-
-Weekly notes: • Roots (carrot/beet): avoid high N; if pale, side-dress very lightly with low N, higher K and water in. • Carrots/Beets harvest readiness: test-pull 1 every 1–2 weeks; look for shoulders ~2–3 cm across, good colour, crisp snap. If small, re-mulch lightly and leave 1–2 weeks. • Carrots/Beets test-pull log: every fortnight on Sunday, pull and record one carrot/beet. • Sweet potatoes (bags): monthly light organic feed; add sulphate of potash once bulking starts; keep evenly moist. • Tomatoes transplant tip: bury leggy seedlings up to first leaves for stronger stems and roots. • Shopping list check (Sun): eco-oil, Dipel, Eco-Neem, copper, sulphur, iron chelate, acidic fertiliser, stakes/ties, seed-raising mix. • Seed storage (weekly): leftovers dry and sealed in an airtight jar with desiccant; store in the fridge; out of light. • Seed-buy (1–2 weeks out): if NOT on hand, buy **beans / zucchini / pumpkin** now (soil ≥18 °C); I’ll only suggest packets when conditions are close. After purchase, say “add to shopping list” or tell me when you sow.",,,
-2025-09-09,Module — Lettuce (cut-and-come-again),"• Harvest **outer leaves** first; leave central crown intact.
-• Take **3–5 leaves/plant** at a time; avoid stripping the plant.
-• Cut 2–3 cm above the crown if bulk cutting; don’t damage the growing point.
-• Keep **even moisture**; shallow roots dislike dry-down.
-• Light feed (seaweed/fish/Charlie Carp) **every 2 weeks**.
-• Harvest **in the morning** for crisp leaves.
-• Heat plan: provide shade cloth on days **>28 °C**; bitter/bolting risk rises with heat.
-• Watch for **bolting** (central stem elongates) — harvest the head soon if seen.",,,
-2025-09-09,AM/PM/Weekly block,"AM (6:00): • Weather & soil: read today’s highs/lows and wind; measure soil temp at 10 cm and moisture at 7–10 cm. Water only if 7–10 cm is dry; spot-water carrots/beets if borderline. • Best spray day this week: call out the calm, dry, mild evening from the 7-day forecast for eco-oil on citrus or Dipel/Eco-Neem (avoid hot/windy days). • Seedlings: – Roma tomatoes: legginess/light check daily (light 2–3 cm above canopy; rotate; gentle airflow; 18–24 °C; vent dome until ≥70% germinated). Begin half-strength liquid feed weekly once first true leaves appear. – Capsicum (peppers): check for 2–3 true leaves; pot-up when roots show; target 20–26 °C days / ≥15 °C nights; begin half-strength feed weekly after pot-up. – Eggplant: sturdy stems and 3–4 true leaves; pot-up as needed; 22–28 °C days / ≥16 °C nights; begin half-strength feed weekly after pot-up. – Cucumber (Lebanese): soil ≥18 °C — direct sow now; expect germination ~5–7 days; keep evenly moist. – Chilli: in dome + heat mat (25–28 °C); germ 10–21 d; vent dome once ≥70% up; begin weekly half-strength feed after true leaves. – Passionfruit: in dome + heat mat (20–30 °C); soak 24 h before sowing; germ 2–6 wks; add mycorrhizae at pot-up (not in seed mix). • Blueberry: keep mulch acidic and moist; monthly acidic liquid feed Sep–Mar; chelated iron only if new leaves yellow with green veins. • Citrus: plan seasonal feeds (spring full feed; mid-summer light; autumn potash). Only feed into moist soil. • General: avoid feeding/spraying on very windy or >32 °C days.
-
-PM (6:00): • Cutworm patrol (broccoli/peas): night check and handpick. If activity continues, spray Dipel late afternoon once per week; if larvae persist at soil line, do an Eco-Neem drench at the base (no collars). • Eco-oil (citrus): last sprayed 2025-09-06; do not re-spray before 2025-09-13. From 13–16 Sep, pick the calmest, dry evening; only re-apply if needed. If >10 mm rain fell within 24 h of last spray, reset the 7–10 day clock from that date. • Compost: quick sniff/moisture check; if too wet add browns, if too dry add water; turn on your scheduled day and log the date.
-
-Weekly notes: • Roots (carrot/beet): avoid high N; if pale, side-dress very lightly with low N, higher K and water in. • Carrots/Beets harvest readiness: test-pull 1 every 1–2 weeks; look for shoulders ~2–3 cm across, good colour, crisp snap. If small, re-mulch lightly and leave 1–2 weeks. • Onion & Garlic harvest readiness: – Garlic: begin checks when ~⅓–½ leaves yellow/flop; each green leaf = 1 wrapper; test-pull first. – Onions: harvest when 50–80% tops fall and necks soften; cure 1–2 weeks airy shade. • Sweet potatoes (bags): monthly light organic feed; add sulphate of potash once bulking starts; keep evenly moist. • Tomatoes transplant tip: bury leggy seedlings up to first leaves for stronger stems and roots. • Shopping list check (Sun): eco-oil, Dipel, Eco-Neem, copper, sulphur, iron chelate, acidic fertiliser, stakes/ties, seed-raising mix. • Seed storage (weekly): leftovers dry and sealed in an airtight jar with desiccant; store in the fridge; out of light. • Seed-buy (1–2 weeks out): only suggest packets you DON’T already own and that are close to sowing.",,,
-2025-09-10,Module — Beneficial nematodes,"• Apply spring (Sep–Oct) and autumn (Mar–Apr) when soil 15–30 °C.
-• Evening or overcast only (UV sensitive).
-• Keep soil moist before & after; avoid insecticides for a few days.
-• Active for 6–8 weeks; re-apply if pest pressure continues.
-• Targets cutworms, curl grubs, fungus gnat larvae, root weevil larvae.
-• Slot into preventative rotation with Eco-Neem drenches and compost teas.",,,
-2025-09-10,Module — Preventative IPM Rotation,"• Rotate weekly tasks:
-  – Week A: Eco-oil (sap-suckers, citrus flush; avoid hot/windy days).
-  – Week B: Dipel spray (caterpillars, late afternoon); add nematodes if spring/autumn window.
-  – Week C: Copper hydroxide or wettable sulphur (alternate; wet/humid weeks).
-  – Week D: Seaweed/kelp foliar feed (fortnightly base tonic).
-• Seasonal: compost + mulch refresh + rock dust/blood & bone + mycorrhizae at sowing/transplant.
-• Sticky traps: refresh fortnightly.
-• Insectary flowers/netting for habitat & barriers.
-• Only spray/feed when foliage is dry, evenings preferred.",,,
-2025-09-10,Module — Shopping List Rotation,"• Beneficial nematodes: add to list late Aug & Feb.
-• Dipel (BT): check fortnightly Apr–Oct.
-• Eco-oil: check Aug–Oct & Feb–Mar.
-• Eco-Neem: check quarterly (Sep, Dec, Mar, Jun).
-• Copper hydroxide: add before wet season (Sep–Nov).
-• Wettable sulphur: add before cucurbit season (Sep–Dec).
-• Kelp/seaweed: check fortnightly growing season.
-• Rock dust, blood & bone, mycorrhizae: add before Mar, Jun, Sep, Dec.
-• Sticky traps: refresh/add every 6–8 weeks.
-• Acidic fert & iron chelate: check Sep & Dec.
-• Seed-raising mix: check Aug–Sep & Jan.",,,
-2025-09-10,Module — Shopping & Seed Check,"• Weekly (Sun): review eco-oil, Dipel, Eco-Neem, copper, sulphur, iron chelate, acidic fert (blueberry), stakes/ties, seed-raising mix, sticky traps.
-• Beneficial nematodes: add late Aug & Feb.
-• Eco-oil: check Aug–Oct & Feb–Mar.
-• Eco-Neem: check Sep, Dec, Mar, Jun.
-• Dipel: fortnightly Apr–Oct.
-• Copper hydroxide: add Sep–Nov.
-• Wettable sulphur: add Sep–Dec.
-• Kelp/seaweed: check fortnightly growing season.
-• Rock dust, blood & bone, mycorrhizae: add Mar, Jun, Sep, Dec.
-• Sticky traps: refresh/add every 6–8 weeks.
-• Seed check (seasonal): review sowing calendar; add seeds 1–2 weeks before planting window; exclude corn, cucumber, beans, Mexican gherkin already in stock.",,,
-2025-09-13,Task — Dipel spray (caterpillars),"Late afternoon, calm & dry. Keep foliage dry. Repeat weekly while activity persists. Avoid mixing with oils the same day.",,,
-2025-09-20,Task — Eco-Neem drench (cutworm bases),Drench around stems at soil line in evening/overcast; moist soil before/after. Maintain 7-day harvest buffer on edible leaves.,,,
-2025-09-18,Window — Eco-oil (citrus) eligible,"Pick any calm, dry evening 18–21 Sep if pests present or new flush is tender. Skip if no pressure. Reset if >10 mm rain.",,,
-2025-09-12,Note — Spray rotation status,Rotation log: Eco-oil ✅ (11 Sep). Dipel planned 13 Sep (weekly follow-ups while cutworms active). Eco-Neem drench due ~20 Sep. Next eco-oil window opens 18–21 Sep if needed. Always avoid oil + sulphur within 14 days.,,,
-RID-test-2025-09-18-1,Test reminder (API),2025-09-18,,,Hello from Garden-AI API
-RID-test-2025-09-18-1,Test reminder (API),2025-09-18,,,Hello from Garden-AI
+item,category,last_checked,qty_on_hand,reorder_date,notes
+Eco-oil,Botanical,2025-09-06,half bottle,2025-09-20,Spray citrus flush every 7–10d
+Beneficial nematodes,Biological,2025-08-30,none,2026-02-20,Apply Mar & Sep
+Corn seed,Seed,2025-08-15,packet OK,2026-08-01,"Already owned, exclude from reminders"
+Eco-oil,Botanical,2025-09-10,unknown,2025-09-20,"Citrus flush weekly if needed; calm, dry evenings"
+Eco-Neem,Botanical,2025-09-10,unknown,2025-12-01,Quarterly check (Sep/Dec/Mar/Jun); soil drench or leaf spray
+Dipel (BT),Biological,2025-09-10,unknown,2025-09-17,Caterpillars; late arvo; weekly if pressure
+Beneficial nematodes,Biological,2025-09-10,unknown,2025-09-20,Apply spring & autumn; evening/overcast; soil moist
+Kelp/Seaweed extract,Tonic,2025-09-10,unknown,2025-09-24,Fortnightly foliar; strengthens cell walls
+Copper hydroxide,Mineral,2025-09-10,unknown,2025-10-01,Wet/humid weeks; rotate with sulphur
+Wettable sulphur,Mineral,2025-09-10,unknown,2025-10-01,Powdery mildew; rotate with copper
+Rock dust,Mineral,2025-09-10,unknown,2025-12-01,Trace minerals; spring & autumn top-ups
+Blood & bone,Fertiliser,2025-09-10,unknown,2025-12-01,Light side-dress; avoid roots (carrots/beets)
+Mycorrhizae inoculant,Biological,2025-09-10,unknown,2025-12-01,Use at sowing/transplant only
+Sticky traps,Consumable,2025-09-10,unknown,2025-10-22,Refresh every 6–8 weeks
+Acidic fertiliser (blueberry),Fertiliser,2025-09-10,unknown,2025-10-01,Monthly Sep–Mar
+Iron chelate,Supplement,2025-09-10,unknown,2025-12-01,Use only if new leaves yellow with green veins
+Seed-raising mix,Consumable,2025-09-10,unknown,2026-01-10,For summer sowings
+Charlie Carp (fish emulsion),Tonic,2025-09-10,unknown,2025-09-24,Fortnightly light feed; great for lettuce
+Citrus potash,Fertiliser,2025-09-10,unknown,2025-03-01,Autumn potash for citrus fruiting
+Sulphate of potash,Fertiliser,2025-09-10,unknown,2025-12-15,Add when sweet potatoes start bulking
+Fruit fly traps/bait,Pest mgmt,2025-09-10,unknown,2025-10-15,Hang ahead of spring activity
+Corn seed,Seed,2025-09-10,packet OK,2026-08-01,Already owned; direct sow when soil ≥18 °C
+Cucumber seed (Lebanese),Seed,2025-09-10,packet OK,2026-08-01,Already owned; sow now (soil ≥18 °C)
+Cucumber seed (Mexican gherkin),Seed,2025-09-10,packet OK,2026-08-01,Already owned; trellis if possible
+Bean seed,Seed,2025-09-10,packet OK,2026-08-01,Already owned; direct sow ≥18 °C
+Blueberry fertiliser,Fertiliser,2025-09-16,0,2025-09-20,"Ordered, arriving end of week"
+Dipel (test),Sprays,2025-09-18,low,2025-09-25,Debug insert
