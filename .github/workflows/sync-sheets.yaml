@@ -20,15 +20,25 @@ jobs:
           set -euo pipefail
           mkdir -p data
 
-          # ---- MAP YOUR SHEETS HERE (name -> published CSV URL) ----
+          # ---- MAP YOUR TABS HERE (file base name -> published CSV URL) ----
+          # TIP: If you published the whole doc, you can usually add &gid=<NUMBER> per tab.
+          # Better: publish each tab to CSV and paste the exact per-tab link.
           declare -A MAP=(
-            ["garden_ai"]="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv"
+            ["garden_reminders"]="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=1236571867"
+            ["garden_events"]="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=459521443"
+            ["garden_plants"]="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=798549436"
+            ["garden_shopping"]="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=1430791601"
           )
-          # -----------------------------------------------------------
+          # -------------------------------------------------------------------
 
           changed=0
           for name in "${!MAP[@]}"; do
             url="${MAP[$name]}"
+            if [[ "$url" == *"<"*">"* ]]; then
+              echo "ERROR: URL for '$name' still has a <...> placeholder. Please set the correct CSV publish URL (with gid)." >&2
+              exit 1
+            fi
+
             tmp="data/${name}.csv.tmp"
             out="data/${name}.csv"
 
@@ -49,20 +59,19 @@ jobs:
           if [ "$changed" -eq 1 ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "Sync sheets: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git commit -m "Sync sheets (CSV): $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             git push
           else
-            echo "Nothing to commit."
+            echo "CSV step: Nothing to commit."
           fi
 
-      # Use a Python step (no heredoc/YAML indentation traps)
       - name: Also emit JSON alongside CSV
         shell: python
         run: |
           import csv, json, glob, os, subprocess
           changed = False
           for csv_path in glob.glob('data/*.csv'):
-              json_path = csv_path[:-4] + 'json'
+              json_path = csv_path[:-4] + '.json'   # <-- dot before json
               with open(csv_path, newline='') as f:
                   rows = list(csv.DictReader(f))
               new = json.dumps(rows, ensure_ascii=False, indent=2)
@@ -76,5 +85,7 @@ jobs:
                   changed = True
           if changed:
               subprocess.run(["git","add","data"], check=False)
-              subprocess.run(["git","commit","-m","Update JSON exports"], check=False)
+              subprocess.run(["git","commit","-m","Sync sheets (JSON)"], check=False)
               subprocess.run(["git","push"], check=False)
+          else:
+              print("JSON step: Nothing to commit.")
