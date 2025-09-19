@@ -3,7 +3,7 @@ name: Sync Google Sheets to repo
 on:
   schedule:
     - cron: "*/15 * * * *"   # every 15 minutes (UTC)
-  workflow_dispatch:          # allow manual run
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -17,50 +17,48 @@ jobs:
       - name: Fetch sheets as CSV
         shell: bash
         run: |
-          set -euo pipefail
+          set -e -o pipefail
+          set -x
           mkdir -p data
 
-          # ---- MAP YOUR TABS HERE (file base name -> published CSV URL) ----
-          # TIP: Replace these with per-tab links that include each tab's gid
-          # e.g. .../pub?output=csv&gid=123456789
-          declare -A MAP=(
-            [“garden_reminders”]=“https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=1236571867”
-            [“garden_events”]=“https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=459521443”
-            [“garden_plants”]=“https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=798549436”
-            [“garden_shopping”]=“https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=1430791601”
-          )
-          # -------------------------------------------------------------------
+          # name<space>url (use ONLY straight quotes if you quote)
+          readarray -t MAP <<'EOF'
+garden_reminders https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=1236571867
+garden_events https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=459521443
+garden_plants https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=798549436
+garden_shopping https://docs.google.com/spreadsheets/d/e/2PACX-1vSaed_vb8L-fCt5LeWG9YbP5YjE6pRFh-yxE66-VdCmGDy-qhwLFDIbwzpfWSx7jWP0bVtgizFOAi7D/pub?output=csv&gid=1430791601
+EOF
 
           echo "MAP entries: ${#MAP[@]}"
-          for k in "${!MAP[@]}"; do printf '  %s -> %s\n' "$k" "${MAP[$k]}"; done
+          printf '%s\n' "${MAP[@]}"
 
           changed=0
-          for name in "${!MAP[@]}"; do
-            url="${MAP[$name]}"
+          for line in "${MAP[@]}"; do
+            name="${line%% *}"
+            url="${line#* }"
             tmp="data/${name}.csv.tmp"
             out="data/${name}.csv"
 
-            echo "::group::Downloading $name"
-            echo "curl -> $url"
-            curl -Lsf --retry 3 --retry-delay 2 -o "$tmp" "$url"
-            echo "bytes: $(wc -c < "$tmp" || true)"
+            echo "::group::Downloading ${name}"
+            echo "curl -> ${url}"
+            curl -Lsf --retry 3 --retry-delay 2 -o "${tmp}" "${url}"
+            wc -c < "${tmp}" || true
             echo "::endgroup::"
 
-            if [ ! -f "$out" ] || ! cmp -s "$tmp" "$out"; then
-              mv "$tmp" "$out"
-              git add "$out"
+            if [ ! -f "${out}" ] || ! cmp -s "${tmp}" "${out}"; then
+              mv "${tmp}" "${out}"
+              git add "${out}"
               changed=1
-              echo "Updated: $out"
+              echo "Updated: ${out}"
             else
-              rm -f "$tmp"
-              echo "No change: $out"
+              rm -f "${tmp}"
+              echo "No change: ${out}"
             fi
           done
 
-          if [ "$changed" -eq 1 ]; then
+          if [ "${changed}" -eq 1 ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            echo "About to commit these changes:"
             git status --porcelain
             git commit -m "Sync sheets (CSV): $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             git push
@@ -71,7 +69,7 @@ jobs:
       - name: Also emit JSON alongside CSV
         shell: python
         run: |
-          import csv, json, glob, os, subprocess, sys
+          import csv, json, glob, os, subprocess
           print("Scanning for CSVs in data/ ...")
           csvs = sorted(glob.glob('data/*.csv'))
           for p in csvs: print("  found:", p)
