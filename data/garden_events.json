@@ -78,25 +78,5 @@
     "interval_days": "",
     "seasonal_window": "",
     "notes": "Soil temperature reading"
-  },
-  {
-    "event_id": "EV-test-1",
-    "plant_id": "PL-test-roma-1",
-    "event_type": "Spray",
-    "event_date": "2025-09-18",
-    "product_or_amount": "Dipel 4g",
-    "interval_days": "7",
-    "seasonal_window": "",
-    "notes": "Debug insert"
-  },
-  {
-    "event_id": "EV-test-1",
-    "plant_id": "PL-test-roma-1",
-    "event_type": "Spray",
-    "event_date": "2025-09-18",
-    "product_or_amount": "Dipel 4g",
-    "interval_days": "7",
-    "seasonal_window": "",
-    "notes": "Debug insert"
   }
 ]

@@ -193,20 +193,5 @@
     "expected_harvest_start": "",
     "expected_harvest_end": "",
     "notes": "Harvest when ~⅓–½ leaves yellow/flop; each green leaf = 1 wrapper; test-pull first"
-  },
-  {
-    "plant_id": "PL-test-roma-1",
-    "plant_name": "Tomato",
-    "variety": "Roma",
-    "bed": "Bed 1",
-    "sow_method": "seedling",
-    "sow_date": "2025-09-05",
-    "germ_date": "",
-    "transplant_date": "",
-    "first_flower_date": "",
-    "first_fruit_date": "",
-    "expected_harvest_start": "",
-    "expected_harvest_end": "",
-    "notes": "Debug insert"
   }
 ]
