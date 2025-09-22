@@ -214,5 +214,13 @@
     "qty_on_hand": "1 bottle",
     "reorder_date": "2025-10-21T07:00:00+10:00",
     "notes": "Restocked Sep 21 2025 for citrus spray"
+  },
+  {
+    "item": "Kelp/Seaweed extract",
+    "category": "Tonic",
+    "last_checked": "2025-09-22",
+    "qty_on_hand": "specify_amount",
+    "reorder_date": "2025-10-24",
+    "notes": "Fortnightly foliar; strengthens cell walls"
   }
 ]
