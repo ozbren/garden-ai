@@ -78,5 +78,15 @@
     "interval_days": "",
     "seasonal_window": "",
     "notes": "Soil temperature reading"
+  },
+  {
+    "event_id": "soil_temp_20250924",
+    "plant_id": "none",
+    "event_type": "soil_temperature",
+    "event_date": "2025-09-24",
+    "product_or_amount": "19C",
+    "interval_days": "0",
+    "seasonal_window": "spring",
+    "notes": "Soil temperature recorded at 9:04 AM"
   }
 ]
