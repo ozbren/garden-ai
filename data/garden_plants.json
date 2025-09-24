@@ -193,5 +193,20 @@
     "expected_harvest_start": "",
     "expected_harvest_end": "",
     "notes": "Harvest when ~⅓–½ leaves yellow/flop; each green leaf = 1 wrapper; test-pull first"
+  },
+  {
+    "plant_id": "corn_20250924",
+    "plant_name": "Corn",
+    "variety": "F1 Breakthrough",
+    "bed": "3",
+    "sow_method": "direct",
+    "sow_date": "2025-09-24",
+    "germ_date": "",
+    "transplant_date": "",
+    "first_flower_date": "",
+    "first_fruit_date": "",
+    "expected_harvest_start": "2025-12-15",
+    "expected_harvest_end": "2026-01-15",
+    "notes": "Sown 16 seeds in 4x4 grid, 20cm apart, middle of bed 3"
   }
 ]

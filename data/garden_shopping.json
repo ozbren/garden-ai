@@ -222,5 +222,13 @@
     "qty_on_hand": "specify_amount",
     "reorder_date": "2025-10-24",
     "notes": "Fortnightly foliar; strengthens cell walls"
+  },
+  {
+    "item": "Blueberry Liquid Fertiliser Concentrate",
+    "category": "fertilizer",
+    "last_checked": "2025-09-24",
+    "qty_on_hand": "1900ml",
+    "reorder_date": "2026-03-01",
+    "notes": "Two 1L bottles delivered 2025-09-24"
   }
 ]
