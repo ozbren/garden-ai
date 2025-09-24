@@ -8,3 +8,6 @@ EV-2025-09-11-CW-01,PL-GENERAL,pest_observation,2025-09-11,cutworm: 1,,,One cutw
 EID-PHOTO-ROMA,Roma,Photo,2025-09-16,,,,Roma seedling photo
 EID-SOILTEMP-20250917,Soil,Measurement,2025-09-17,20°C,,,Soil temperature reading
 soil_temp_20250924,none,soil_temperature,2025-09-24,19C,0,spring,Soil temperature recorded at 9:04 AM
+amend_20250924,corn_20250924,soil_amendment,2025-09-24,rockdust and Neutrog Giganic,0,spring,Added to corn area before sowing
+fert_blue_20250924,blueberry-001,fertilizing,2025-09-24,100ml Blueberry Liquid Fertiliser Concentrate,28,spring-autumn,Applied to blueberry plants
+fert_blue_20250924,blueberry-001,fertilizing,2025-09-24,100ml Blueberry Liquid Fertiliser Concentrate,7,spring-summer,"Applied to blueberry plants, diluted 100ml in 10L water (10ml/L)"

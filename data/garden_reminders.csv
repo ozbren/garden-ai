@@ -1,1 +1,5 @@
 reminder_id,title,start_date,rrule,related_plant_id,notes
+rem_fert_blue,Fertilize Blueberries,2025-10-22,FREQ=WEEKLY;INTERVAL=4,blueberry-001,Apply 100ml diluted as per label during growing season
+rem_fert_blue,Fertilize Blueberries,2025-10-01,FREQ=WEEKLY;INTERVAL=1;UNTIL=20260301,blueberry-001,Apply 100ml diluted Blueberry Liquid Fertiliser Concentrate as per label during spring/summer
+rem_fert_blue,Fertilize Blueberries,2025-10-01,FREQ=WEEKLY;INTERVAL=1,blueberry-001,"Apply 100ml concentrate diluted: 10ml/L water in spring/summer (Sep-Feb), 5ml/L in autumn/winter (Mar-Aug)"
+rem_fert_blue,Fertilize Blueberries,2025-10-01,FREQ=WEEKLY;INTERVAL=1,blueberry-001,"Apply 100ml concentrate diluted: 10ml/L water in spring/summer (Sep-Feb), 5ml/L in autumn/winter (Mar-Aug)"
