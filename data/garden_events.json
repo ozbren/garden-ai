@@ -105,16 +105,6 @@
     "event_type": "fertilizing",
     "event_date": "2025-09-24",
     "product_or_amount": "100ml Blueberry Liquid Fertiliser Concentrate",
-    "interval_days": "28",
-    "seasonal_window": "spring-autumn",
-    "notes": "Applied to blueberry plants"
-  },
-  {
-    "event_id": "fert_blue_20250924",
-    "plant_id": "blueberry-001",
-    "event_type": "fertilizing",
-    "event_date": "2025-09-24",
-    "product_or_amount": "100ml Blueberry Liquid Fertiliser Concentrate",
     "interval_days": "7",
     "seasonal_window": "spring-summer",
     "notes": "Applied to blueberry plants, diluted 100ml in 10L water (10ml/L)"
