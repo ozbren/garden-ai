@@ -148,5 +148,15 @@
     "interval_days": "0",
     "seasonal_window": "spring",
     "notes": "Found on side of potato bag near bed 2, no damage noted, only 1 seen"
+  },
+  {
+    "event_id": "pest_redback_20250925",
+    "plant_id": "citrus_pots",
+    "event_type": "pest_sighting",
+    "event_date": "2025-09-25",
+    "product_or_amount": "3 redback spiders",
+    "interval_days": "0",
+    "seasonal_window": "spring",
+    "notes": "Found on 3 citrus pots, no eggs, no bites"
   }
 ]
