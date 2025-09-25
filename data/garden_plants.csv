@@ -1,7 +1,7 @@
 plant_id,plant_name,variety,bed,sow_method,sow_date,germ_date,transplant_date,first_flower_date,first_fruit_date,expected_harvest_start,expected_harvest_end,notes
 roma-2025-08-19,Tomato,Roma,,indoor seedling,2025-08-19,2025-08-24,,,,,,5/18 germinated by 24 Aug; remove dome ~12/18; strong light + gentle airflow.
-capsicum-2025-pending,Capsicum,,,indoor seedling,,,,,,,,Seeds on hand; sow date TBD (wait for consistent soil temps if direct sow).
-eggplant-2025-pending,Eggplant,,,indoor seedling,,,,,,,,Seeds on hand; sow date TBD (wait for consistent soil temps if direct sow).
+capsicum-2025-pending,Capsicum,,,indoor seedling,2025-09-01,,,,,,,Seeds on hand; sow date TBD (wait for consistent soil temps if direct sow).
+eggplant-2025-pending,Eggplant,,,indoor seedling,2025-09-01,,,,,,,Seeds on hand; sow date TBD (wait for consistent soil temps if direct sow).
 citrus-garden,Citrus,,,,,,,,,,,Lemon/Lime/Mandarin group
 blueberry-001,Blueberry,,,,,,,,,,,Young plant; monthly acidic feed
 PL-2025-09-07-CH-01,Chilli,(unspecified),12,tray (dome + heat mat),2025-09-07,,,,,,,Seeded 12; vent dome at ~70% germ; begin half-strength feed after true leaves
