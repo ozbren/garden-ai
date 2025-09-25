@@ -10,3 +10,7 @@ EID-SOILTEMP-20250917,Soil,Measurement,2025-09-17,20°C,,,Soil temperature readi
 soil_temp_20250924,none,soil_temperature,2025-09-24,19C,0,spring,Soil temperature recorded at 9:04 AM
 amend_20250924,corn_20250924,soil_amendment,2025-09-24,rockdust and Neutrog Giganic,0,spring,Added to corn area before sowing
 fert_blue_20250924,blueberry-001,fertilizing,2025-09-24,100ml Blueberry Liquid Fertiliser Concentrate,7,spring-summer,"Applied to blueberry plants, diluted 100ml in 10L water (10ml/L)"
+pest_cutworm_20250925,broccoli_bed2,pest_control,2025-09-25,killed 2 cutworms,0,spring,"Found in broccoli bed 2, killed manually"
+spray_econeem_20250925,citrus_blueberry,spraying,2025-09-25,Eco-Neem 10ml/L,7,spring,"Applied to citrus and blueberries before trip, diluted 10ml per 1L"
+pest_ant_20250925,general,pest_sighting,2025-09-25,mulitple scatterred ants,0,spring,Found on concrete near garden
+pest_planthopper_20250925,potato_bag,pest_sighting,2025-09-25,1 green planthopper,0,spring,"Found on side of potato bag near bed 2, no damage noted, only 1 seen"
