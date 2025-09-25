@@ -2,30 +2,6 @@
   {
     "reminder_id": "rem_fert_blue",
     "title": "Fertilize Blueberries",
-    "start_date": "2025-10-22",
-    "rrule": "FREQ=WEEKLY;INTERVAL=4",
-    "related_plant_id": "blueberry-001",
-    "notes": "Apply 100ml diluted as per label during growing season"
-  },
-  {
-    "reminder_id": "rem_fert_blue",
-    "title": "Fertilize Blueberries",
-    "start_date": "2025-10-01",
-    "rrule": "FREQ=WEEKLY;INTERVAL=1;UNTIL=20260301",
-    "related_plant_id": "blueberry-001",
-    "notes": "Apply 100ml diluted Blueberry Liquid Fertiliser Concentrate as per label during spring/summer"
-  },
-  {
-    "reminder_id": "rem_fert_blue",
-    "title": "Fertilize Blueberries",
-    "start_date": "2025-10-01",
-    "rrule": "FREQ=WEEKLY;INTERVAL=1",
-    "related_plant_id": "blueberry-001",
-    "notes": "Apply 100ml concentrate diluted: 10ml/L water in spring/summer (Sep-Feb), 5ml/L in autumn/winter (Mar-Aug)"
-  },
-  {
-    "reminder_id": "rem_fert_blue",
-    "title": "Fertilize Blueberries",
     "start_date": "2025-10-01",
     "rrule": "FREQ=WEEKLY;INTERVAL=1",
     "related_plant_id": "blueberry-001",
