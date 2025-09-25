@@ -1,8 +1,8 @@
 [
   {
-    "Bed 1 (640mm x 7150mm)": "Bed 2 (1080mm x 7160mm)"
+    "Bed 1 (3x36 grid)": "Bed 2 (6x36 grid)"
   },
   {
-    "Bed 1 (640mm x 7150mm)": "Bed 3 (1140mm x 7170mm)"
+    "Bed 1 (3x36 grid)": "Bed 3 (6x36 grid)"
   }
 ]

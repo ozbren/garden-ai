@@ -108,5 +108,45 @@
     "interval_days": "7",
     "seasonal_window": "spring-summer",
     "notes": "Applied to blueberry plants, diluted 100ml in 10L water (10ml/L)"
+  },
+  {
+    "event_id": "pest_cutworm_20250925",
+    "plant_id": "broccoli_bed2",
+    "event_type": "pest_control",
+    "event_date": "2025-09-25",
+    "product_or_amount": "killed 2 cutworms",
+    "interval_days": "0",
+    "seasonal_window": "spring",
+    "notes": "Found in broccoli bed 2, killed manually"
+  },
+  {
+    "event_id": "spray_econeem_20250925",
+    "plant_id": "citrus_blueberry",
+    "event_type": "spraying",
+    "event_date": "2025-09-25",
+    "product_or_amount": "Eco-Neem 10ml/L",
+    "interval_days": "7",
+    "seasonal_window": "spring",
+    "notes": "Applied to citrus and blueberries before trip, diluted 10ml per 1L"
+  },
+  {
+    "event_id": "pest_ant_20250925",
+    "plant_id": "general",
+    "event_type": "pest_sighting",
+    "event_date": "2025-09-25",
+    "product_or_amount": "mulitple scatterred ants",
+    "interval_days": "0",
+    "seasonal_window": "spring",
+    "notes": "Found on concrete near garden"
+  },
+  {
+    "event_id": "pest_planthopper_20250925",
+    "plant_id": "potato_bag",
+    "event_type": "pest_sighting",
+    "event_date": "2025-09-25",
+    "product_or_amount": "1 green planthopper",
+    "interval_days": "0",
+    "seasonal_window": "spring",
+    "notes": "Found on side of potato bag near bed 2, no damage noted, only 1 seen"
   }
 ]
