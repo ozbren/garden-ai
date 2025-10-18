@@ -158,5 +158,25 @@
     "interval_days": "0",
     "seasonal_window": "spring",
     "notes": "Found on 3 citrus pots, no eggs, no bites"
+  },
+  {
+    "event_id": "harvest_oniongarlic_20251018",
+    "plant_id": "oniongarlic_bed2",
+    "event_type": "harvest",
+    "event_date": "2025-10-18",
+    "product_or_amount": "small bulbs",
+    "interval_days": "0",
+    "seasonal_window": "spring",
+    "notes": "Early harvest, onions immature, garlic small"
+  },
+  {
+    "event_id": "care_oniongarlic_20251018",
+    "plant_id": "oniongarlic_bed2",
+    "event_type": "maintenance",
+    "event_date": "2025-10-18",
+    "product_or_amount": "water 0.5L onions, 0.3L garlic, straw mulch",
+    "interval_days": "7",
+    "seasonal_window": "spring",
+    "notes": "Left in ground, watered, mulched due to dry soil"
   }
 ]
