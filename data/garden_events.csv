@@ -17,3 +17,4 @@ pest_planthopper_20250925,potato_bag,pest_sighting,2025-09-25,1 green planthoppe
 pest_redback_20250925,citrus_pots,pest_sighting,2025-09-25,3 redback spiders,0,spring,"Found on 3 citrus pots, no eggs, no bites"
 harvest_oniongarlic_20251018,oniongarlic_bed2,harvest,2025-10-18,small bulbs,0,spring,"Early harvest, onions immature, garlic small"
 care_oniongarlic_20251018,oniongarlic_bed2,maintenance,2025-10-18,"water 0.5L onions, 0.3L garlic, straw mulch",7,spring,"Left in ground, watered, mulched due to dry soil"
+pest_aphid_20251019,plantX,pest_sighting,2025-10-19,cluster of black aphids,7,spring,Black aphids on leaves
