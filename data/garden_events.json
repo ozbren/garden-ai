@@ -178,5 +178,15 @@
     "interval_days": "7",
     "seasonal_window": "spring",
     "notes": "Left in ground, watered, mulched due to dry soil"
+  },
+  {
+    "event_id": "pest_aphid_20251019",
+    "plant_id": "plantX",
+    "event_type": "pest_sighting",
+    "event_date": "2025-10-19",
+    "product_or_amount": "cluster of black aphids",
+    "interval_days": "7",
+    "seasonal_window": "spring",
+    "notes": "Black aphids on leaves"
   }
 ]
