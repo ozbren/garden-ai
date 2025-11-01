@@ -230,5 +230,53 @@
     "qty_on_hand": "1900ml",
     "reorder_date": "2026-03-01",
     "notes": "Two 1L bottles delivered 2025-09-24"
+  },
+  {
+    "item": "diatomaceous_earth",
+    "category": "pest_control",
+    "last_checked": "2025-10-27",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-10-27",
+    "notes": "1kg_for_slug_barriers"
+  },
+  {
+    "item": "corn_seeds",
+    "category": "seeds",
+    "last_checked": "2025-10-31",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-10-31",
+    "notes": "20_seeds_Bed2_succession_2025-11-14"
+  },
+  {
+    "item": "tomato_stakes",
+    "category": "support",
+    "last_checked": "2025-10-29",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-10-29",
+    "notes": "6x1.8m_for_Bed_3"
+  },
+  {
+    "item": "yellow_sticky_traps",
+    "category": "pest_control",
+    "last_checked": "2025-10-28",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-10-28",
+    "notes": "10_pack_for_blueberry_whitefly"
+  },
+  {
+    "item": "liquid_seaweed",
+    "category": "fertilizer",
+    "last_checked": "2025-10-26",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-10-26",
+    "notes": "1L_for_tomato_capsicum_boost"
+  },
+  {
+    "item": "copper_oxychloride",
+    "category": "fungicide",
+    "last_checked": "2025-10-30",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-10-30",
+    "notes": "200g_for_peach_leaf_curl"
   }
 ]

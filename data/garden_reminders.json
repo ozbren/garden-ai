@@ -6,5 +6,21 @@
     "rrule": "FREQ=WEEKLY;INTERVAL=1",
     "related_plant_id": "blueberry-001",
     "notes": "Apply 100ml concentrate diluted: 10ml/L water in spring/summer (Sep-Feb), 5ml/L in autumn/winter (Mar-Aug)"
+  },
+  {
+    "reminder_id": "rem_20251026_001",
+    "title": "Peach_Leaf_Curl_Patrol",
+    "start_date": "2025-11-02",
+    "rrule": "FREQ=WEEKLY;INTERVAL=1",
+    "related_plant_id": "peach",
+    "notes": "Check_leaves_for_red_puckered_spots"
+  },
+  {
+    "reminder_id": "rem_20251027_001",
+    "title": "Avocado_Root_Rot_Patrol",
+    "start_date": "2025-11-10",
+    "rrule": "FREQ=BIWEEKLY;INTERVAL=1",
+    "related_plant_id": "avocado",
+    "notes": "Check_soil_and_leaves_for_wilting"
   }
 ]

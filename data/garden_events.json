@@ -188,5 +188,25 @@
     "interval_days": "7",
     "seasonal_window": "spring",
     "notes": "Black aphids on leaves"
+  },
+  {
+    "event_id": "evt_20251028_001",
+    "plant_id": "none",
+    "event_type": "bokashi_liquid_harvest",
+    "event_date": "2025-10-28",
+    "product_or_amount": "200mL",
+    "interval_days": "7",
+    "seasonal_window": "spring",
+    "notes": "Drain_dilute_1:100_for_tomato_foliar"
+  },
+  {
+    "event_id": "evt_20251029_001",
+    "plant_id": "none",
+    "event_type": "compost_turn",
+    "event_date": "2025-10-29",
+    "product_or_amount": "50g_accelerator",
+    "interval_days": "14",
+    "seasonal_window": "spring",
+    "notes": "Turned_and_added_accelerator"
   }
 ]
