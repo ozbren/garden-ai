@@ -20,3 +20,6 @@ care_oniongarlic_20251018,oniongarlic_bed2,maintenance,2025-10-18,"water 0.5L on
 pest_aphid_20251019,plantX,pest_sighting,2025-10-19,cluster of black aphids,7,spring,Black aphids on leaves
 evt_20251028_001,none,bokashi_liquid_harvest,2025-10-28,200mL,7,spring,Drain_dilute_1:100_for_tomato_foliar
 evt_20251029_001,none,compost_turn,2025-10-29,50g_accelerator,14,spring,Turned_and_added_accelerator
+SOIL-20251028,General,SoilCheck,2025-10-28,TEMP_HERE,,,
+SOIL-20251101,General,SoilCheck,2025-11-01,TEMP_HERE,,,
+SOIL-20251031,General,SoilCheck,2025-10-31,TEMP_HERE,,,
