@@ -326,5 +326,13 @@
     "qty_on_hand": "0",
     "reorder_date": "2025-10-30",
     "notes": "200g_for_peach_leaf_curl"
+  },
+  {
+    "item": "ITEM_HERE",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "QTY_HERE",
+    "reorder_date": "",
+    "notes": ""
   }
 ]

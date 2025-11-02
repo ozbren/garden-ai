@@ -258,5 +258,65 @@
     "interval_days": "14",
     "seasonal_window": "spring",
     "notes": "Turned_and_added_accelerator"
+  },
+  {
+    "event_id": "SOIL-20251029",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-10-29",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251101",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-01",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251030",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-10-30",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251102",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-02",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251028",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-10-28",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251031",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-10-31",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
   }
 ]
