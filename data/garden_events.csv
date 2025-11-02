@@ -23,3 +23,5 @@ evt_20251029_001,none,compost_turn,2025-10-29,50g_accelerator,14,spring,Turned_a
 SOIL-20251028,General,SoilCheck,2025-10-28,TEMP_HERE,,,
 SOIL-20251101,General,SoilCheck,2025-11-01,TEMP_HERE,,,
 SOIL-20251031,General,SoilCheck,2025-10-31,TEMP_HERE,,,
+evt_20251028_001,none,bokashi_liquid_harvest,2025-10-28,200mL,7,spring,Drain_dilute_1:100_for_tomato_foliar
+evt_20251029_001,none,compost_turn,2025-10-29,50g_accelerator,14,spring,Turned_and_added_accelerator
