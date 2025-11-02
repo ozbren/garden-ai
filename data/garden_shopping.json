@@ -286,5 +286,45 @@
     "qty_on_hand": "QTY_HERE",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "passionfruit_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-01",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-01",
+    "notes": "5_seeds_Bed1_succession_2025-11-15"
+  },
+  {
+    "item": "corn_seeds",
+    "category": "seeds",
+    "last_checked": "2025-10-31",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-10-31",
+    "notes": "20_seeds_Bed2_succession_2025-11-14"
+  },
+  {
+    "item": "tomato_stakes",
+    "category": "support",
+    "last_checked": "2025-10-29",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-10-29",
+    "notes": "6x1.8m_for_Bed_3"
+  },
+  {
+    "item": "diatomaceous_earth",
+    "category": "pest_control",
+    "last_checked": "2025-10-27",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-10-27",
+    "notes": "1kg_for_slug_barriers"
+  },
+  {
+    "item": "copper_oxychloride",
+    "category": "fungicide",
+    "last_checked": "2025-10-30",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-10-30",
+    "notes": "200g_for_peach_leaf_curl"
   }
 ]
