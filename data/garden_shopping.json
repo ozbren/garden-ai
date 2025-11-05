@@ -430,5 +430,13 @@
     "qty_on_hand": "0",
     "reorder_date": "2025-11-04",
     "notes": "25_seeds_Bed2_succession_2025-11-18"
+  },
+  {
+    "item": "ITEM_HERE",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "QTY_HERE",
+    "reorder_date": "",
+    "notes": ""
   }
 ]
