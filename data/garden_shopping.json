@@ -614,5 +614,69 @@
     "qty_on_hand": "QTY_HERE",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "strawberry_runners",
+    "category": "plants",
+    "last_checked": "2025-11-02",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-02",
+    "notes": "6_runners_Bed3_2025-11-16"
+  },
+  {
+    "item": "beetroot_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-04",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-04",
+    "notes": "25_seeds_Bed2_succession_2025-11-18"
+  },
+  {
+    "item": "snow_pea_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-05",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-05",
+    "notes": "40_seeds_Bed2_succession_2025-11-19"
+  },
+  {
+    "item": "corn_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-07",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-07",
+    "notes": "30_seeds_Bed1_2025-11-21"
+  },
+  {
+    "item": "capsicum_seedlings",
+    "category": "plants",
+    "last_checked": "2025-11-06",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-06",
+    "notes": "6_seedlings_Bed3_2025-11-20"
+  },
+  {
+    "item": "corn_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-07",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-07",
+    "notes": "30_seeds_Bed1_2025-11-21"
+  },
+  {
+    "item": "capsicum_seedlings",
+    "category": "plants",
+    "last_checked": "2025-11-06",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-06",
+    "notes": "6_seedlings_Bed3_2025-11-20"
+  },
+  {
+    "item": "snow_pea_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-05",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-05",
+    "notes": "40_seeds_Bed2_succession_2025-11-19"
   }
 ]
