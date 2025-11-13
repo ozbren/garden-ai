@@ -1158,5 +1158,13 @@
     "qty_on_hand": "0",
     "reorder_date": "2025-11-12",
     "notes": "40_seeds_Bed2_2025-11-25"
+  },
+  {
+    "item": "ITEM_HERE",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "QTY_HERE",
+    "reorder_date": "",
+    "notes": ""
   }
 ]
