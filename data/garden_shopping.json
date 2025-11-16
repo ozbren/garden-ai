@@ -1390,5 +1390,21 @@
     "qty_on_hand": "0",
     "reorder_date": "2025-11-11",
     "notes": "2_seedlings_Bed1_2025-11-24"
+  },
+  {
+    "item": "ITEM_HERE",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "QTY_HERE",
+    "reorder_date": "",
+    "notes": ""
+  },
+  {
+    "item": "ITEM_HERE",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "QTY_HERE",
+    "reorder_date": "",
+    "notes": ""
   }
 ]
