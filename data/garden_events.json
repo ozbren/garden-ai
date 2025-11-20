@@ -1528,5 +1528,15 @@
     "interval_days": "",
     "seasonal_window": "",
     "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251106",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-06",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
   }
 ]
