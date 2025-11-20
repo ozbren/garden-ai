@@ -1822,5 +1822,13 @@
     "qty_on_hand": "0",
     "reorder_date": "2025-11-15",
     "notes": "30_seeds_Bed1_2025-11-28"
+  },
+  {
+    "item": "beetroot_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-15",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-15",
+    "notes": "30_seeds_Bed1_2025-11-28"
   }
 ]
