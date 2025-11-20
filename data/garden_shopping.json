@@ -1798,5 +1798,13 @@
     "qty_on_hand": "0",
     "reorder_date": "2025-11-15",
     "notes": "30_seeds_Bed1_2025-11-28"
+  },
+  {
+    "item": "capsicum_seedlings",
+    "category": "plants",
+    "last_checked": "2025-11-14",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-14",
+    "notes": "6_seedlings_Bed3_2025-11-27"
   }
 ]
