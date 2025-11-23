@@ -1828,5 +1828,85 @@
     "interval_days": "",
     "seasonal_window": "",
     "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251123",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-23",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251122",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-22",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251120",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-20",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251120",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-20",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251118",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-18",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251123",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-23",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251121",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-21",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
+  },
+  {
+    "event_id": "SOIL-20251119",
+    "plant_id": "General",
+    "event_type": "SoilCheck",
+    "event_date": "2025-11-19",
+    "product_or_amount": "TEMP_HERE",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": ""
   }
 ]
