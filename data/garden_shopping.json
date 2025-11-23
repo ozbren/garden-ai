@@ -1998,5 +1998,101 @@
     "qty_on_hand": "QTY_HERE",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "passionfruit_cuttings",
+    "category": "plants",
+    "last_checked": "2025-11-18",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-18",
+    "notes": "4_cuttings_pot_2025-12-01"
+  },
+  {
+    "item": "beetroot_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-22",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-22",
+    "notes": "30_seeds_Bed1_2025-12-07"
+  },
+  {
+    "item": "tomato_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-23",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-23",
+    "notes": "20_seeds_Bed2_2025-12-10"
+  },
+  {
+    "item": "snow_pea_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-20",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-20",
+    "notes": "40_seeds_Bed3_2025-12-03"
+  },
+  {
+    "item": "capsicum_seedlings",
+    "category": "plants",
+    "last_checked": "2025-11-21",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-21",
+    "notes": "6_seedlings_Bed2_2025-12-05"
+  },
+  {
+    "item": "bean_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-19",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-19",
+    "notes": "25_seeds_Bed1_2025-12-02"
+  },
+  {
+    "item": "beetroot_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-22",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-22",
+    "notes": "30_seeds_Bed1_2025-12-07"
+  },
+  {
+    "item": "snow_pea_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-20",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-20",
+    "notes": "40_seeds_Bed3_2025-12-03"
+  },
+  {
+    "item": "tomato_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-23",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-23",
+    "notes": "20_seeds_Bed2_2025-12-10"
+  },
+  {
+    "item": "passionfruit_cuttings",
+    "category": "plants",
+    "last_checked": "2025-11-18",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-18",
+    "notes": "4_cuttings_pot_2025-12-01"
+  },
+  {
+    "item": "bean_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-19",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-19",
+    "notes": "25_seeds_Bed1_2025-12-02"
+  },
+  {
+    "item": "capsicum_seedlings",
+    "category": "plants",
+    "last_checked": "2025-11-21",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-21",
+    "notes": "6_seedlings_Bed2_2025-12-05"
   }
 ]
