@@ -2278,5 +2278,37 @@
     "qty_on_hand": "QTY_HERE",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "tomato_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-23",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-23",
+    "notes": "20_seeds_Bed2_2025-12-10"
+  },
+  {
+    "item": "strawberry_runners",
+    "category": "plants",
+    "last_checked": "2025-11-24",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-24",
+    "notes": "8_runners_Bed1_2025-12-12"
+  },
+  {
+    "item": "beetroot_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-22",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-22",
+    "notes": "30_seeds_Bed1_2025-12-07"
+  },
+  {
+    "item": "snow_pea_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-26",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-26",
+    "notes": "25_seeds_Bed2_2025-12-20"
   }
 ]
