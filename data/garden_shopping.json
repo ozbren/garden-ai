@@ -3246,5 +3246,61 @@
     "qty_on_hand": "QTY_HERE",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "snow_pea_seeds",
+    "category": "seeds",
+    "last_checked": "2025-12-06",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-06",
+    "notes": "30_seeds_Bed1_2025-12-20"
+  },
+  {
+    "item": "bean_seeds",
+    "category": "seeds",
+    "last_checked": "2025-12-02",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-02",
+    "notes": "25_seeds_Bed2_2025-12-20"
+  },
+  {
+    "item": "tomato_seedlings",
+    "category": "seedlings",
+    "last_checked": "2025-12-07",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-07",
+    "notes": "6_seedlings_Bed3_2025-12-25"
+  },
+  {
+    "item": "capsicum_seeds",
+    "category": "seeds",
+    "last_checked": "2025-12-04",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-04",
+    "notes": "25_seeds_Bed3_2025-12-15"
+  },
+  {
+    "item": "cucumber_seeds",
+    "category": "seeds",
+    "last_checked": "2025-12-05",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-05",
+    "notes": "20_seeds_Bed2_2025-12-20"
+  },
+  {
+    "item": "beetroot_seeds",
+    "category": "seeds",
+    "last_checked": "2025-12-03",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-03",
+    "notes": "40_seeds_Bed1_2025-12-25"
+  },
+  {
+    "item": "snow_pea_seeds",
+    "category": "seeds",
+    "last_checked": "2025-12-06",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-06",
+    "notes": "30_seeds_Bed1_2025-12-20"
   }
 ]
