@@ -3702,5 +3702,61 @@
     "qty_on_hand": "QTY_HERE",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "tomato_seedlings",
+    "category": "seedlings",
+    "last_checked": "2025-12-07",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-07",
+    "notes": "6_seedlings_Bed3_2025-12-25"
+  },
+  {
+    "item": "bean_seeds",
+    "category": "seeds",
+    "last_checked": "2025-12-09",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-09",
+    "notes": "40_seeds_Bed2_2025-12-20"
+  },
+  {
+    "item": "strawberry_runners",
+    "category": "runners",
+    "last_checked": "2025-12-12",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-12",
+    "notes": "12_runners_Bed1_2025-12-20"
+  },
+  {
+    "item": "strawberry_runners",
+    "category": "runners",
+    "last_checked": "2025-12-12",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-12",
+    "notes": "12_runners_Bed1_2025-12-20"
+  },
+  {
+    "item": "bean_seeds",
+    "category": "seeds",
+    "last_checked": "2025-12-09",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-09",
+    "notes": "40_seeds_Bed2_2025-12-20"
+  },
+  {
+    "item": "passionfruit_cuttings",
+    "category": "cuttings",
+    "last_checked": "2025-12-08",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-08",
+    "notes": "3_cuttings_trellis_2025-01-05"
+  },
+  {
+    "item": "strawberry_runners",
+    "category": "runners",
+    "last_checked": "2025-12-12",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-12",
+    "notes": "12_runners_Bed1_2025-12-20"
   }
 ]
