@@ -3782,5 +3782,29 @@
     "qty_on_hand": "QTY_HERE",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "bean_seeds",
+    "category": "seeds",
+    "last_checked": "2025-12-09",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-12-09",
+    "notes": "40_seeds_Bed2_2025-12-20"
+  },
+  {
+    "item": "sulphate_of_potash",
+    "category": "fertiliser",
+    "last_checked": "2025-12-13",
+    "qty_on_hand": "unknown",
+    "reorder_date": "2025-12-15",
+    "notes": "fruit_flower_boost_summer"
+  },
+  {
+    "item": "sulphate_of_potash",
+    "category": "fertiliser",
+    "last_checked": "2025-12-13",
+    "qty_on_hand": "unknown",
+    "reorder_date": "2025-12-15",
+    "notes": "fruit_flower_boost_summer"
   }
 ]
