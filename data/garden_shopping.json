@@ -3806,5 +3806,21 @@
     "qty_on_hand": "unknown",
     "reorder_date": "2025-12-15",
     "notes": "fruit_flower_boost_summer"
+  },
+  {
+    "item": "ITEM_HERE",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "QTY_HERE",
+    "reorder_date": "",
+    "notes": ""
+  },
+  {
+    "item": "ITEM_HERE",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "QTY_HERE",
+    "reorder_date": "",
+    "notes": ""
   }
 ]
