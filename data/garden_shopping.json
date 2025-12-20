@@ -3918,5 +3918,21 @@
     "qty_on_hand": "",
     "reorder_date": "2025-12-15",
     "notes": ""
+  },
+  {
+    "item": "yellow_sticky_traps",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "low",
+    "reorder_date": "",
+    "notes": ""
+  },
+  {
+    "item": "sulphate_of_potash",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "",
+    "reorder_date": "2025-12-15",
+    "notes": ""
   }
 ]
