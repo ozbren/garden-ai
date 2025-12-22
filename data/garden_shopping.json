@@ -3934,5 +3934,13 @@
     "qty_on_hand": "",
     "reorder_date": "2025-12-15",
     "notes": ""
+  },
+  {
+    "item": "sulphate_of_potash",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "UPDATED_QTY_HERE",
+    "reorder_date": "",
+    "notes": ""
   }
 ]
