@@ -3990,5 +3990,13 @@
     "qty_on_hand": "NEW_QTY",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "example_item",
+    "category": "example_category",
+    "last_checked": "2025-12-27",
+    "qty_on_hand": "updated_qty",
+    "reorder_date": "new_date",
+    "notes": "notes_here"
   }
 ]
