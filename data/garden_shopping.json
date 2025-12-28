@@ -3974,5 +3974,13 @@
     "qty_on_hand": "NEW_QTY",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "ITEM_NAME",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "NEW_QTY",
+    "reorder_date": "",
+    "notes": ""
   }
 ]
