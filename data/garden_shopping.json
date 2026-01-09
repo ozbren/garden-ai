@@ -4038,5 +4038,13 @@
     "qty_on_hand": "UPDATED_QTY_HERE",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "ITEM",
+    "category": "",
+    "last_checked": "",
+    "qty_on_hand": "",
+    "reorder_date": "",
+    "notes": ""
   }
 ]
