@@ -4046,5 +4046,21 @@
     "qty_on_hand": "",
     "reorder_date": "",
     "notes": ""
+  },
+  {
+    "item": "Seed-raising mix",
+    "category": "Consumable",
+    "last_checked": "2026-01-10",
+    "qty_on_hand": "updated_qty",
+    "reorder_date": "new_date",
+    "notes": "For summer sowings"
+  },
+  {
+    "item": "Seed-raising mix",
+    "category": "Consumable",
+    "last_checked": "2026-01-10",
+    "qty_on_hand": "updated_qty",
+    "reorder_date": "new_date",
+    "notes": "For summer sowings"
   }
 ]
