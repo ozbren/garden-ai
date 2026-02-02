@@ -22,5 +22,29 @@
     "rrule": "FREQ=BIWEEKLY;INTERVAL=1",
     "related_plant_id": "avocado",
     "notes": "Check_soil_and_leaves_for_wilting"
+  },
+  {
+    "reminder_id": "rem_cutworm_feb26",
+    "title": "Cutworm Patrol (evening)",
+    "start_date": "2026-02-09",
+    "rrule": "FREQ=WEEKLY",
+    "related_plant_id": "general_beds",
+    "notes": "Handpick at dusk; check seedlings/brassicas"
+  },
+  {
+    "reminder_id": "rem_cutworm_feb26",
+    "title": "Cutworm Patrol (evening)",
+    "start_date": "2026-02-09",
+    "rrule": "FREQ=WEEKLY",
+    "related_plant_id": "general_beds",
+    "notes": "Handpick at dusk%3B check seedlings%2Fbrassicas"
+  },
+  {
+    "reminder_id": "rem_cutworm_feb26",
+    "title": "Cutworm Patrol (evening)",
+    "start_date": "2026-02-09",
+    "rrule": "FREQ=WEEKLY",
+    "related_plant_id": "general_beds",
+    "notes": "Handpick at dusk; check seedlings/brassicas"
   }
 ]
