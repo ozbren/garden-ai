@@ -2,3 +2,6 @@ reminder_id,title,start_date,rrule,related_plant_id,notes
 rem_fert_blue,Fertilize Blueberries,2025-10-01,FREQ=WEEKLY;INTERVAL=1,blueberry-001,"Apply 100ml concentrate diluted: 10ml/L water in spring/summer (Sep-Feb), 5ml/L in autumn/winter (Mar-Aug)"
 rem_20251026_001,Peach_Leaf_Curl_Patrol,2025-11-02,FREQ=WEEKLY;INTERVAL=1,peach,Check_leaves_for_red_puckered_spots
 rem_20251027_001,Avocado_Root_Rot_Patrol,2025-11-10,FREQ=BIWEEKLY;INTERVAL=1,avocado,Check_soil_and_leaves_for_wilting
+rem_cutworm_feb26,Cutworm Patrol (evening),2026-02-09,FREQ=WEEKLY,general_beds,Handpick at dusk; check seedlings/brassicas
+rem_cutworm_feb26,Cutworm Patrol (evening),2026-02-09,FREQ=WEEKLY,general_beds,Handpick at dusk%3B check seedlings%2Fbrassicas
+rem_cutworm_feb26,Cutworm Patrol (evening),2026-02-09,FREQ=WEEKLY,general_beds,Handpick at dusk; check seedlings/brassicas
