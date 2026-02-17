@@ -5,3 +5,4 @@ rem_20251027_001,Avocado_Root_Rot_Patrol,2025-11-10,FREQ=BIWEEKLY;INTERVAL=1,avo
 rem_cutworm_feb26,Cutworm Patrol (evening),2026-02-09,FREQ=WEEKLY,general_beds,Handpick at dusk; check seedlings/brassicas
 rem_cutworm_feb26,Cutworm Patrol (evening),2026-02-09,FREQ=WEEKLY,general_beds,Handpick at dusk%3B check seedlings%2Fbrassicas
 rem_cutworm_feb26,Cutworm Patrol (evening),2026-02-09,FREQ=WEEKLY,general_beds,Handpick at dusk; check seedlings/brassicas
+cutworm_check_feb17,Cutworm Patrol ,,,,
