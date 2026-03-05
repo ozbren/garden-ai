@@ -4062,5 +4062,13 @@
     "qty_on_hand": "updated_qty",
     "reorder_date": "new_date",
     "notes": "For summer sowings"
+  },
+  {
+    "item": "corn_seeds",
+    "category": "seeds",
+    "last_checked": "2025-11-07",
+    "qty_on_hand": "0",
+    "reorder_date": "2025-11-07",
+    "notes": "30_seeds_Bed1_2025-11-21"
   }
 ]
