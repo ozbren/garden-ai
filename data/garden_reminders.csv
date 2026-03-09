@@ -8,3 +8,5 @@ rem_cutworm_feb26,Cutworm Patrol (evening),2026-02-09,FREQ=WEEKLY,general_beds,H
 cutworm_check_feb17,Cutworm Patrol ,,,,
 cutworm_check_feb17,Cutworm Patrol ,,,,
 cutworm_check_feb17,Cutworm Patrol ,,,,
+NEW_ID_HERE,Snail Patrol Evening,2026-03-09,FREQ=WEEKLY,general_beds,Check after dusk%3B beer traps or handpick
+NEW_ID_HERE,Snail Patrol Evening,2026-03-09,FREQ=WEEKLY,general_beds,Check after dusk; beer traps or handpick
