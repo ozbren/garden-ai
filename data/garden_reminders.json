@@ -110,5 +110,37 @@
     "rrule": "FREQ=WEEKLY",
     "related_plant_id": "general_beds",
     "notes": "Check after dusk; beer traps or handpick"
+  },
+  {
+    "reminder_id": "NEW_ID_HERE",
+    "title": "Snail Patrol Evening",
+    "start_date": "2026-03-09",
+    "rrule": "FREQ=WEEKLY",
+    "related_plant_id": "general_beds",
+    "notes": "Check after dusk; beer traps or handpick"
+  },
+  {
+    "reminder_id": "NEW_ID_HERE",
+    "title": "Snail Patrol Evening",
+    "start_date": "2026-03-09",
+    "rrule": "FREQ=WEEKLY",
+    "related_plant_id": "general_beds",
+    "notes": "Check after dusk; beer traps or handpick"
+  },
+  {
+    "reminder_id": "NEW_ID_HERE",
+    "title": "Snail Patrol Evening",
+    "start_date": "2026-03-09",
+    "rrule": "FREQ=WEEKLY",
+    "related_plant_id": "general_beds",
+    "notes": "Check after dusk; beer traps or handpick"
+  },
+  {
+    "reminder_id": "NEW_ID_HERE",
+    "title": "Snail Patrol Evening",
+    "start_date": "2026-03-09",
+    "rrule": "FREQ=WEEKLY",
+    "related_plant_id": "general_beds",
+    "notes": "Check after dusk; beer traps or handpick"
   }
 ]
