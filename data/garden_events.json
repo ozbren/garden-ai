@@ -3828,5 +3828,15 @@
     "interval_days": "",
     "seasonal_window": "",
     "notes": ""
+  },
+  {
+    "event_id": "NEW",
+    "plant_id": "general_beds",
+    "event_type": "pest_patrol",
+    "event_date": "2026-03-20",
+    "product_or_amount": "snails_checked",
+    "interval_days": "",
+    "seasonal_window": "",
+    "notes": "Evening snail patrol outcome"
   }
 ]
